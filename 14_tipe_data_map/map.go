@@ -25,4 +25,7 @@ func main() {
 	//menghapus map
 	delete(book, "ups")
 	fmt.Println(book)
+
+	fmt.Println(book)
+	fmt.Println(len(book))
 }

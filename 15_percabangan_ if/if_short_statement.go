@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// pengecekan kondisi panjang hanya ada di golang
+// pengecekan kondisi nama terlalu panjang panjang hanya ada di golang
 func main() {
 
 	var name = "ataaaaaa"

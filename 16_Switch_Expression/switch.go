@@ -9,6 +9,8 @@ func main() {
 	switch name {
 	case "ata":
 		fmt.Println("Hello ata")
+		//didalam percabangan bisa menambahkan lebih dari satu isi
+		fmt.Println("Hello ata")
 	case "blu":
 		fmt.Println("Hello blu")
 	default:

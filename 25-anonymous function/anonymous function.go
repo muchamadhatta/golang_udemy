@@ -12,6 +12,18 @@ func registerUser(name string, blacklist Blacklist) {
 	}
 }
 
-func main() {
+// func blacklistAdmin(name string) bool {
+// 	return name == "admin"
+// }
 
+// func blacklistRoot(name string) bool {
+// 	return name =="root"
+// }
+
+func main() {
+	blacklist := func(name string) bool {
+		return name == "admin"
+	}
+	registerUser("admin", blacklist)
+	registerUser("ata", blacklist)
 }

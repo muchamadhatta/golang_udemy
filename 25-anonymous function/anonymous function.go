@@ -8,7 +8,7 @@ func registerUser(name string, blacklist Blacklist) {
 	if blacklist(name) {
 		fmt.Println("You are Blocked", name)
 	} else {
-		fmt.Println("welcome", name)
+		fmt.Println("welcome back", name)
 	}
 }
 
